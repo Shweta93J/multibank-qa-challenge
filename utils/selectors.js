@@ -22,6 +22,12 @@ const selectors = {
       'text=Login',
       'text=Sign in',
     ],
+    validationMessage: [
+      'text=/invalid/i',
+      'text=/required/i',
+      'text=/error/i',
+      'text=/enter/i'
+],
     forgotPasswordLink: [
       'a:has-text("Forgot")',
       'text=Forgot Password',
