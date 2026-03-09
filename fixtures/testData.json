@@ -1,0 +1,10 @@
+{
+  "invalidLogin": {
+    "email": "invalid.user@example.com",
+    "password": "WrongPass123!"
+  },
+  "market": {
+    "symbol": "BTC",
+    "orderAmount": 25
+  }
+}

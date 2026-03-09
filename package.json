@@ -1,0 +1,30 @@
+{
+  "name": "multibank-qa-coding-challenge",
+  "version": "1.0.0",
+  "description": "Playwright-based UI automation framework and coding exercise solution for MultiBank QA assessment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:api": "playwright test tests/api",
+    "report": "playwright show-report",
+    "exercise": "node coding-exercise/runExerciseTests.js"
+  },
+  "keywords": [
+    "playwright",
+    "qa",
+    "automation",
+    "multibank"
+  ],
+  "author": "Shweta Kumari",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "dotenv": "^16.4.5"
+  }
+}
