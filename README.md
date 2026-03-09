@@ -52,6 +52,12 @@ multibank-qa-challenge/
 - Page Object Model
 - GitHub Actions
 
+ ## Execution Notes
+
+The framework is configured for Chromium, Firefox, and WebKit.
+
+During validation, Chromium produced the most stable results against the target environment. Some authentication and navigation flows in WebKit showed browser-specific UI behavior differences, particularly around redirects and auth-related rendering. The framework remains cross-browser ready, and selectors/assertions can be further tuned based on environment-specific behavior.
+
 ## Setup
 
 1. Clone the repository.
